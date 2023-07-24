@@ -1,13 +1,14 @@
-import adapter from "@sveltejs/adapter-static";
-// was "@sveltejs/adapter-auto"
 
-/** @type {import(""@sveltejs/kit").Config} */
+/** @type {import('@sveltejs/kit').Config} */
+
+import adapter from '@sveltejs/adapter-static';
+
 const config = {
 	kit: {
-		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
-		})
+		adapter: adapter(),
+		prerender: {
+			default: true,
+		},
 	}
 };
 

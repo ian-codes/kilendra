@@ -1,38 +1,75 @@
-<div class="gradient" />
-<div class="sky" />
-<div class="curve"/>
+<div class="gradient">
+	<div class="sl1">
+		<div class="gr1" />
+		<div class="gr2" />
+	</div>
+	<div class="sl2">
+		<div class="gr1" />
+		<div class="gr2" />
+	</div>
+</div>
+
+<div class="waves">
+	<div class="w1" />
+	<div class="w2" />
+</div>
 
 <style>
 	.gradient {
-		pointer-events: none;
-		z-index: -6;
 		position: absolute;
 		inset: 0;
+		z-index: -10;
 		height: 100%;
-		background: linear-gradient(rgb(35, 135, 165), #231446);
-		box-shadow: 0 3px 5px rgba(10, 16, 34, 0.87);
 	}
-	.sky {
-		z-index: -5;
-		height: 100%;
-		width: 100%;
-		position: absolute;
-		inset: 0;
-		background-image: url('/assets/sky.jpg');
+
+	.sl1 {
+		height: 50%;
+	}
+
+	.sl2 {
+		height: 50%;
+	}
+
+	.gr1 {
+		height: 50%;
+		background: rgb(86, 32, 130);
+		background: linear-gradient(0deg, rgba(86, 32, 130, 1) 0%, rgba(18, 181, 215, 1) 100%);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		opacity: 0.2;
-		mix-blend-mode: multiply;
-		box-shadow: 0 0 30px 5px black;
+		transform: scaleY(1.01);
 	}
-/* 	.curve {
-		z-index: -6;
+
+	.gr2 {
+		height: 50%;
+		background: rgb(86, 32, 130);
+		background: linear-gradient(180deg, rgba(86, 32, 130, 1) 0%, rgba(18, 181, 215, 1) 100%);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.waves {
+		z-index: -4;
 		position: absolute;
-		background: #231446;
-		width: 100%;
-		height: 10vh;
-		border-radius: 0 0 100rem 100rem / 10rem;
-		bottom: 0;
-	} */
+		inset: 0;
+		opacity: 1;
+		mix-blend-mode: multiply;
+	}
+
+	.w1 {
+		height: 50%;
+		background-image: url('/assets/pattern.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.w2 {
+		height: 50%;
+		background-image: url('/assets/pattern2.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 </style>

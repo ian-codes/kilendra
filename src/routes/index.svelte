@@ -1,19 +1,15 @@
 <script>
+	import Calendly from '../components/Calendly.svelte';
 	import Expertise from '../components/Expertise.svelte';
 	import Introduction from '../components/Introduction.svelte';
+	import LetsTalk from '../components/LetsTalk.svelte';
+	import OurFocus from '../components/OurFocus.svelte';
 </script>
 
 <main>
 	<Introduction />
 	<Expertise />
+	<OurFocus />
+	<LetsTalk />
+	<Calendly />
 </main>
-
-<style>
-	main {
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		width: clamp(100px, 100%, 1100px);
-		gap: 20vh;
-	}
-</style>

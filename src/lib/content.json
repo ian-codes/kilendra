@@ -1,0 +1,23 @@
+{
+    "DE": {
+        "Header": {
+            "span": "Moderne, Digitale Marketingagentur"
+        },
+        "Incentive": {
+            "p": "Starten Sie Heute",
+            "span": "Kostenloses Erstgespräch"
+        },
+        "Introduction": {
+            "p": "We are a contemporary social media marketing agency based in Switzerland. We run ads for our clients, so they don't have to. With our scaling strategies, we generate tangible results with a ROI that's hard to beat. Stop worrying about trying to reach the right & most amount of people. We'll take that weight off your shoulders."
+        }
+    },
+    "EN": {
+        "Header": {
+            "span": "Modern-Day Digitial Marketing Agency"
+        },
+        "Incentive": {
+            "p": "Get Started Today",
+            "span": "Book your FREE strategy call"
+        }
+    }
+}

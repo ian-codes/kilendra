@@ -9,7 +9,7 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 24em;
+		height: 27em;
 		opacity: 0.8;
 		filter: drop-shadow(2px 4px 20px rgba(0, 0, 0, 0.308));
 	}

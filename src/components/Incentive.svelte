@@ -1,65 +1,76 @@
 <div>
-	<button>
-		Get started today
-		<span>Schedule a free consultation</span>
-	</button>
+	<a href="#schedule">
+		<p>Beratungsgespräch</p>
+		<span>Unverbindlich & 100% kostenlos</span>
+	</a>
 </div>
 
 <style>
 	div {
-		height: 9em;
-		padding: 1em;
+		z-index: 10;
+		height: 10rem;
 		display: flex;
 		align-items: center;
 		justify-content: left;
+		margin-top: 1rem;
+		margin-left: 1rem;
+		transition: all 0.2s ease;
 	}
+
+	div:hover {
+		transform: scale(1.07);
+	}
+	div:hover a {
+		background: linear-gradient(-90deg, rgb(16, 151, 185), rgb(18, 80, 150));
+	}
+
 	span {
-		font-size: .5em;
+		font-size: 0.5em;
 		font-weight: normal;
 	}
-	button {
+
+	a {
+		text-decoration: none;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: .4em;
+		gap: 0.2em;
 		cursor: pointer;
 		width: 12em;
-		font-size: 1.2em;
+		font-size: 1em;
 		font-weight: bold;
-		border-radius: 40px;
-		margin: 1em;
-		padding: 1.2em;
-		background: linear-gradient(90deg, rgb(95, 40, 158), rgb(18, 60, 150));
-		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.288);
+		border-radius: 5px;
+		padding: 0.8em;
+		background: linear-gradient(90deg, rgb(118, 40, 182), rgb(15, 38, 143));
+		box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5), 0 -1px 2px rgba(255, 255, 255, 0.841);
 		color: white;
 		border: none;
-		animation: hover 3s infinite linear;
 		transition: all 0.2s ease;
 	}
-	button:hover {
-		font-size: 1.3em;
-		animation: rainbow 3s infinite linear, hover 3s infinite linear;
-	}
-	button:focus {
+
+	a:focus {
 		outline: 3px dotted white;
 	}
-	@keyframes rainbow {
-		0% {
-			filter: hue-rotate(0deg);
+
+
+	@media only screen and (max-width: 840px) {
+		div {
+			margin-top: 0;
+			margin-right: 0;
+			justify-content: center;
 		}
-		100% {
-			filter: hue-rotate(360deg);
+		a {
+			width: 11em;
 		}
 	}
-	@keyframes hover {
-		0% {
-			transform: translateY(0);
+
+	@media only screen and (max-width: 325px) {
+		a {
+			width: 9em;
 		}
-		50% {
-			transform: translateY(-5px);
-		}
-		100% {
-			transform: translateY(0);
+
+		span {
+			font-size: 0.4em;
 		}
 	}
 </style>
