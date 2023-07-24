@@ -5,7 +5,7 @@
 
 	onMount(() => {
 		Calendly.initInlineWidget({
-			url: 'https://calendly.com/kilimandred/15min?hide_landing_page_details=1&hide_gdpr_banner=1"',
+			url: 'https://calendly.com/kilendra/15min?hide_landing_page_details=1&hide_gdpr_banner=1"',
 			parentElement: calendlyWrapper
 		});
 	});
