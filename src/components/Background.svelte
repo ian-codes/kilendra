@@ -1,4 +1,3 @@
-<div class="border"></div>
 
 <div class="gradient">
 	<div class="sl1">

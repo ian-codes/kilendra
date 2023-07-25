@@ -40,7 +40,7 @@
 	@media only screen and (max-width: 840px) {
 		section {
 			height: 1200px;
-			margin-top: 0em;
+			margin: 1em;
 		}
 	}
 </style>

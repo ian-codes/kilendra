@@ -6,15 +6,11 @@
 	import '../app.css';
 </script>
 
-<div>
 	<Header />
 	<slot />
 	<Footer />
 	<Background />
-</div>
 
 <style>
-	div {
-		margin: 1rem;
-	}
+
 </style>
