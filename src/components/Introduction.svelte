@@ -4,7 +4,7 @@
 
 <section class="description">
 	<p>
-		Wir sind eine Digitale Marketing Agentur, die anhand modernsten Methoden die Kundenakquise für schweizer Unternehmen erleichtert und automatisiert.
+		Wir sind eine Digitale Marketing Agentur, die anhand modernen Methoden die Kundenakquise für Schweizer Unternehmen erleichtert und automatisiert.
 	</p>
 	<div class="design">
 		<Incentive />

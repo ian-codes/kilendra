@@ -19,17 +19,17 @@
 		</button>
 		<ol class="{isOpen ? "open" : "closed"}">
 			<li>
-				<a href="#home">
+				<a class="menuLink" href="#home">
 					Home
 				</a>
 			</li>
 			<li>
-				<a href="#how-we-work">
+				<a class="menuLink" href="#how-we-work">
 					Wie wir arbeiten
 				</a>
 			</li>
 			<li>
-				<a href="#get-in-touch">
+				<a class="menuLink" href="#get-in-touch">
 					Kontakt
 				</a>
 			</li>
@@ -50,27 +50,15 @@
 		padding: 0 1rem;
 		position: relative;
 	}
+
 	.logo {
 		font-size: 3em;
-		font-weight: bold;
-		text-decoration: none;
-		color: white;
-		position: relative;
 	}
-	.logo::before {
-		content: '';
-		width: 5px;
-		height: 5px;
-		background: white;
-		right: -0.15em;
-		bottom: .3em;
-		border-radius: 100%;
-		position: absolute;
-		transition: all .2s ease;
-	}
+	
 	nav {
 		height: 100%;
 	}
+	
 	#burger {
 		display: none;
 	}
@@ -101,14 +89,8 @@
 		width: 0;
 		transition: all .2s ease;
 	}
-	.logo:hover, a:hover {
-		text-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
-	}
-	.logo:hover::before {
-		bottom: 0;
-		right: 0;
-		width: 100%;
-		height: 2px;
+	.menuLink:hover {
+		text-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
 	}
 	a:hover::after {
 		width: 100%;
