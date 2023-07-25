@@ -6,7 +6,15 @@
 	import '../app.css';
 </script>
 
-<Header />
-<slot />
-<Footer />
-<Background />
+<div>
+	<Header />
+	<slot />
+	<Footer />
+	<Background />
+</div>
+
+<style>
+	div {
+		margin: 1rem;
+	}
+</style>

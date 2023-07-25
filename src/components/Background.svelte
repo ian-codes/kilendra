@@ -1,3 +1,5 @@
+<div class="border"></div>
+
 <div class="gradient">
 	<div class="sl1">
 		<div class="gr1" />
@@ -8,7 +10,7 @@
 		<div class="gr2" />
 	</div>
 </div>
-
+	
 <div class="waves">
 	<div class="w1" />
 	<div class="w2" />
