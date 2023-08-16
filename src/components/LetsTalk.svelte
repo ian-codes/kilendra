@@ -1,6 +1,6 @@
 <section class="description" id="get-in-touch">
 	<h2>Wir freuen uns, Sie kennenzulernen zu dürfen!</h2>
-	<p>Vereinbaren Sie ein unverbindliches und kostenloses 15-minütiges Beratungsgesprächt mit uns. In diesem kurzen Gespräch werden wir einen ersten Blick auf die Situation Ihres Unternehmens werfen und bestimmen, wie wir Ihnen helfen können. Wir freuen uns darauf, von Ihnen zu hören!
+	<p>Vereinbaren Sie ein unverbindliches und kostenloses 20-minütiges Beratungsgesprächt mit uns. In diesem kurzen Gespräch werden wir einen ersten Blick auf die Situation Ihres Unternehmens werfen und bestimmen, wie wir Ihnen helfen können. Wir freuen uns darauf, von Ihnen zu hören!
 	</p>
 </section>
 
