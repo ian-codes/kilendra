@@ -107,7 +107,7 @@
 		#burger {
 			position: absolute;
 			top: 1.5em;
-			right: 1em;
+			right: 1rem;
 			background: none;
 			border: none;
 			width: 30px;
@@ -139,7 +139,7 @@
 		}
 		li {
 			padding: .5em 1em;
-			background: linear-gradient(transparent, rgba(255, 255, 255, 0.082));
+			/* background: linear-gradient(transparent, rgba(255, 255, 255, 0.082)); */
 		}
 		li a {
 			font-weight: lighter;
